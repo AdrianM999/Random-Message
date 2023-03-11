@@ -1,0 +1,104 @@
+html{
+    background-color: #b2bcd4;
+
+}
+
+body{
+    display: flex;
+    justify-content:center;
+}
+img {
+    width: 100%;
+  }
+  .options{
+    gap: 50px;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.motivation{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #b2bcd4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.motivation img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .motivation .btn-motivationl {
+    background: none;
+    display: flex;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .motivation .quote-area-motivation{
+  }
+  .motivation .quote-motivation{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .funny{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #b2bcd4;
+}
+.funny img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .funny .btn {
+    border: 1px solid white;
+    background:none;
+    position: relative;
+    bottom: 30%;
+    left: 45%;
+    transform: translate(-35%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 16px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .funny .quote-area-funny{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .funny .quote-funny{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    padding: 10px 10px
+  }
