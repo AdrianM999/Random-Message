@@ -8,6 +8,11 @@ p, i {
   color: whitesmoke;
   font-size: 1.5rem;
   text-align: center;
+  word-break: break-all;
+}
+span {
+  font-size: 1rem;
+  color: white;
 }
 .diagonal-bg {
   width: 100%;
@@ -59,10 +64,10 @@ background-position-x: right;
 
 .motivation .btn-motivationl {
   background: none;
-  color: black;
+  color: whitesmoke;
   font-size: 16px;
   padding: 16px 30px;
-  border: 1px solid black;
+  border: 1px solid white;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
@@ -71,6 +76,20 @@ background-position-x: right;
 .quote-area-motivation {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 10px;
+
+}
+.quote-area-motivation i {
+  font-size: 1rem;
+}
+
+.quote-area-motivation i:first-child {
+  margin: 3px 10px 0 0;
+}
+.quote-area-motivation i:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
+.features ul{
+  display: inline-flex;
 }
