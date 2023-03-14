@@ -96,4 +96,13 @@ background-position-x: right;
 }
 .container .features {
   border-top: 1px solid white;
+  list-style-type: none;
+}
+.butons .features{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0.3125rem;
+  height: 2.93rem;
+  width: 2.93rem;
 }
