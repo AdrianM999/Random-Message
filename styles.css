@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 p, i {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   color: whitesmoke;
   font-size: 1.5rem;
   text-align: center;
@@ -13,6 +13,8 @@ p, i {
 span {
   font-size: 1rem;
   color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
 }
 .diagonal-bg {
   width: 100%;
@@ -65,13 +67,15 @@ background-position-x: right;
 .motivation .btn-motivationl {
   background: none;
   color: whitesmoke;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 16px 30px;
   border: 1px solid white;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 8px 16px 0 rgba(74, 83, 107, 0.2), 0 6px 20px 0 rgba(74, 83, 107, 0.19);
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 .quote-area-motivation {
   display: flex;
@@ -90,6 +94,6 @@ background-position-x: right;
   align-items: flex-end;
   margin: 0 0 3px 10px;
 }
-.features ul{
-  display: inline-flex;
+.container .features {
+  border-top: 1px solid white;
 }
