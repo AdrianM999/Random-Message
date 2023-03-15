@@ -57,6 +57,10 @@ soundBtn.addEventListener("click", ()=> {
     speechSynthesis.speak(utterance);
 });
 
-copyBtn.addEventListener("click", ()=> {
-   navigator.clipboard.writeText(motivationQuote.innerHTML);
-});
+copyBtn.addEventListener("click", () => {
+    navigator.clipboard.writeText(motivationQuote.innerHTML);
+    copyBtn.innerHTML = "Copied";
+    setTimeout(() => {
+        copyBtn.innerHTML = "<i class='fa fa-copy'></i>";
+    }, 2000); 
+  });
