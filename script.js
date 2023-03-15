@@ -43,16 +43,14 @@ soundBtn = document.querySelector(".sound");
 
 motivationQuoteBtn.addEventListener("click", function() {
     const randomIndex = Math.floor(Math.random() * quotesMotivation.length);
-    motivationQuote.innerHTML = quotesMotivation[randomIndex];
-});
-
-motivationQuoteBtn.addEventListener("click", function() {
     const currentQuote = motivationQuote.innerHTML;
     const quoteIndex = quotesMotivation.indexOf(currentQuote);
     if (quoteIndex !== -1) {
         authorsName.innerHTML = nameAuthor[quoteIndex];
     }
+    motivationQuote.innerHTML = quotesMotivation[randomIndex];
 });
+
 
 soundBtn.addEventListener("click", ()=> {
     let utterance = new SpeechSynthesisUtterance(`${motivationQuote.innerHTML} by ${authorsName.innerHTML}`);
